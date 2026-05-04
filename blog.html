@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog - Stories and thoughts by Dewi Christania Lumuko">
+    <meta name="author" content="Dewi Christania Lumuko">
+    <title>Blog — delux.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            delux<span>.</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="blog.html" class="active">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- PAGE HEADER -->
+    <header class="page-header">
+        <span class="page-header-emoji">✦</span>
+        <h1>My Stories &amp; Thoughts</h1>
+        <p>&ldquo;A collection of my thoughts, experiences, and dreams ♡&rdquo;</p>
+        <hr class="page-divider">
+    </header>
+
+
+    <!-- BLOG CARDS SECTION -->
+    <section class="blog-section bg-white" id="articles">
+        <h2 class="section-title">✎ My Articles</h2>
+        <p class="section-subtitle">Click on any card to read the full story</p>
+        <hr class="section-divider">
+
+        <div class="blog-grid">
+
+            <!-- CARD 1 — Paal Beach -->
+            <article class="blog-card">
+                <div class="blog-card-image">
+                    <img src="assets/images/blog 1.jpeg"
+                         alt="Paal Beach, Likupang"
+                         width="400" height="220" loading="lazy">
+                </div>
+                <div class="blog-card-body">
+                    <span class="card-tag">Travel</span>
+                    <h3>A Beautiful Day at Paal Beach</h3>
+                    <p class="excerpt">
+                        One of the most beautiful places I have ever
+                        visited is Paal Beach in Marinsow, Likupang,
+                        North Sulawesi. This beach is known for its
+                        clear blue water and soft white sand...
+                    </p>
+                    <button class="read-more-btn" onclick="openArticle('article1')">
+                        Read More ≋
+                    </button>
+                </div>
+            </article>
+
+            <!-- CARD 2 — Manguni Owl -->
+            <article class="blog-card">
+                <div class="blog-card-image">
+                    <img src="assets/images/blog 2.jpeg"
+                         alt="Manguni Owl at Museum"
+                         width="400" height="220" loading="lazy">
+                </div>
+                <div class="blog-card-body">
+                    <span class="card-tag">Culture</span>
+                    <h3>A Unique Encounter with the Manguni Owl</h3>
+                    <p class="excerpt">
+                        During my visit to Museum Pa'dior, I had the
+                        chance to see a very unique animal closely
+                        related to the culture of North Sulawesi...
+                    </p>
+                    <button class="read-more-btn" onclick="openArticle('article2')">
+                        Read More ◐
+                    </button>
+                </div>
+            </article>
+
+            <!-- CARD 3 — Tontemboan Language -->
+            <article class="blog-card">
+                <div class="blog-card-image">
+                    <img src="assets/images/blog 3.jpeg"
+                         alt="Tontemboan Language Heritage"
+                         width="400" height="220" loading="lazy">
+                </div>
+                <div class="blog-card-body">
+                    <span class="card-tag">Heritage</span>
+                    <h3>The Beauty of Tontemboan Language</h3>
+                    <p class="excerpt">
+                        As someone who comes from South Minahasa,
+                        I feel proud to be connected to one of the
+                        local languages called Tontemboan...
+                    </p>
+                    <button class="read-more-btn" onclick="openArticle('article3')">
+                        Read More ❀
+                    </button>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+
+    <!-- ARTICLE 1 OVERLAY — Paal Beach -->
+    <div class="article-overlay" id="article1">
+        <div class="article-modal">
+            <button class="article-close" onclick="closeArticle('article1')" aria-label="Close">&times;</button>
+
+            <div class="article-cover">
+                <img src="assets/images/blog 1.jpeg"
+                     alt="Paal Beach, Likupang"
+                     width="750" height="300">
+            </div>
+
+            <div class="article-body">
+                <span class="article-tag">Travel</span>
+                <h2>≋ A Beautiful Day at Paal Beach</h2>
+                <hr class="article-divider">
+
+                <p>
+                    One of the most beautiful places I have ever visited is
+                    <strong>Paal Beach</strong> in Marinsow, Likupang,
+                    North Sulawesi ⚘
+                </p>
+
+                <p>
+                    This beach is known for its clear blue water, soft white
+                    sand, and peaceful atmosphere. When I first arrived, I
+                    felt amazed by how beautiful and calm the place was. The
+                    sound of the waves and the fresh sea breeze made me feel
+                    relaxed and happy.
+                </p>
+
+                <p>
+                    I visited this place with people close to me, and it
+                    became a very memorable experience. We spent time walking
+                    along the shore, enjoying the view, and taking photos
+                    together ◉. The scenery was so beautiful that every
+                    moment felt special.
+                </p>
+
+                <div class="article-highlight">
+                    &ldquo;What I like most about Paal Beach is its natural
+                    beauty. It is not too crowded, so it feels peaceful and
+                    perfect for relaxing. The combination of the blue ocean,
+                    green hills, and bright sky creates a perfect view that
+                    is hard to forget.&rdquo;
+                </div>
+
+                <p>
+                    For me, this place is more than just a tourist destination.
+                    It is a place where I can feel calm, refresh my mind, and
+                    enjoy simple moments with the people I love ♡
+                </p>
+
+                <p>
+                    I hope I can visit this beautiful beach again someday and
+                    create more wonderful memories there ✦
+                </p>
+
+                <div class="article-end">
+                    <p>— A memory worth keeping ≋ ♡</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ARTICLE 2 OVERLAY — Manguni Owl -->
+    <div class="article-overlay" id="article2">
+        <div class="article-modal">
+            <button class="article-close" onclick="closeArticle('article2')" aria-label="Close">&times;</button>
+
+            <div class="article-cover">
+                <img src="assets/images/blog 2.jpeg"
+                     alt="Manguni Owl at Museum"
+                     width="750" height="300">
+            </div>
+
+            <div class="article-body">
+                <span class="article-tag">Culture</span>
+                <h2>◐ A Unique Encounter with the Manguni Owl</h2>
+                <hr class="article-divider">
+
+                <p>
+                    During my visit to <strong>Museum Pa'dior</strong>, I had
+                    the chance to see a very unique animal that is closely
+                    related to the culture of North Sulawesi &mdash; the
+                    <strong>Manguni bird</strong>, also known as the
+                    <strong>Sulawesi Scops Owl</strong> ◐
+                </p>
+
+                <p>
+                    What made this experience special was that the bird was
+                    preserved and displayed inside the museum. Even though
+                    it was not alive, I could still clearly observe its
+                    physical features, such as its small body, sharp eyes,
+                    and detailed feathers.
+                </p>
+
+                <p>
+                    The Manguni bird is not just an ordinary animal. In
+                    <strong>Minahasa culture</strong>, it has a deep meaning
+                    and is often associated with signs or messages. Because
+                    of this, the bird is considered special and respected by
+                    the local community.
+                </p>
+
+                <div class="article-highlight">
+                    &ldquo;Seeing it in the museum made me realize how
+                    important it is to preserve both nature and culture.
+                    Museums like this help us learn more about animals that
+                    we might not see every day, while also keeping cultural
+                    values alive.&rdquo;
+                </div>
+
+                <p>
+                    For me, this was not just about seeing a bird, but also
+                    about understanding a part of my region's identity. It
+                    reminded me that North Sulawesi has many unique things
+                    that we should appreciate and protect ♡
+                </p>
+
+                <p>
+                    This experience was simple, but meaningful, and it made
+                    my visit even more memorable ✦
+                </p>
+
+                <div class="article-end">
+                    <p>— Preserving culture, one story at a time ◐</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ARTICLE 3 OVERLAY — Tontemboan Language -->
+    <div class="article-overlay" id="article3">
+        <div class="article-modal">
+            <button class="article-close" onclick="closeArticle('article3')" aria-label="Close">&times;</button>
+
+            <div class="article-cover">
+                <img src="assets/images/blog 3.jpeg"
+                     alt="Tontemboan Language Heritage"
+                     width="750" height="300">
+            </div>
+
+            <div class="article-body">
+                <span class="article-tag">Heritage</span>
+                <h2>❀ The Beauty of Tontemboan Language</h2>
+                <hr class="article-divider">
+
+                <p>
+                    As someone who comes from <strong>South Minahasa</strong>,
+                    I feel proud to be connected to one of the local languages
+                    called <strong>Tontemboan</strong> ❀
+                </p>
+
+                <p>
+                    Tontemboan is one of the traditional languages spoken by
+                    the people of Minahasa, especially in South Minahasa. It
+                    is not just a way of communication, but also an important
+                    part of <strong>cultural identity</strong> and
+                    <strong>heritage</strong>.
+                </p>
+
+                <p>
+                    Growing up, I have heard this language in daily
+                    conversations, especially from older family members. Even
+                    though I may not use it all the time, I still understand
+                    how meaningful it is. The language carries history, values,
+                    and traditions that have been passed down from generation
+                    to generation.
+                </p>
+
+                <p>
+                    In today&rsquo;s modern world, many young people prefer to
+                    use Indonesian or even foreign languages. Because of this,
+                    local languages like Tontemboan are slowly being used less
+                    often. This makes me realize how important it is for us to
+                    preserve and appreciate our own culture.
+                </p>
+
+                <div class="article-highlight">
+                    &ldquo;For me, Tontemboan is more than just a language.
+                    It represents where I come from and who I am. It connects
+                    me to my roots, my family, and my identity.&rdquo;
+                </div>
+
+                <p>
+                    I hope that in the future, more young people will learn
+                    and continue to use Tontemboan, so that this beautiful
+                    language will never be forgotten ✦
+                </p>
+
+                <div class="article-end">
+                    <p>— Proud of my roots ❀ ♡</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- VIDEO SECTION -->
+    <section class="blog-section bg-rose" id="video">
+        <h2 class="section-title">◈ My Video Story</h2>
+        <p class="section-subtitle">A glimpse into my world through video</p>
+        <hr class="section-divider">
+
+        <div class="video-container">
+
+            <div class="video-description">
+                <p>
+                    This video captures a simple but meaningful moment
+                    with my friend <strong>Britania</strong> ✧
+                    We were working on our assignment together while
+                    enjoying coffee at <strong>Kopi Kenangan</strong>.
+                    Sometimes, the best memories are made during the
+                    simplest moments ♡
+                </p>
+            </div>
+
+            <div class="video-wrapper">
+                <video controls preload="metadata" playsinline>
+                    <source src="assets/video/vid 1.mp4" type="video/mp4">
+                    Your browser does not support the video element.
+                </video>
+            </div>
+
+            <p class="video-note">◆ Study &amp; coffee time with Britania at Kopi Kenangan ○</p>
+
+        </div>
+    </section>
+
+
+    <!-- CLOSING SECTION -->
+    <section class="closing-section">
+        <span class="closing-emoji">♡</span>
+        <h2>Thank You for Reading!</h2>
+        <p>
+            Thank you for reading my stories ♡
+            I hope you can understand me a little better
+            through these writings.
+        </p>
+        <hr class="closing-divider">
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>
+            &copy; 2026
+            <a href="index.html">delux.</a>
+            &mdash; Made with
+            <span class="footer-heart">♡</span>
+            by Dewi Christania Lumuko
+        </p>
+    </footer>
+
+
+    <!-- ARTICLE POPUP SCRIPT -->
+    <script>
+        function openArticle(id) {
+            var overlay = document.getElementById(id);
+            if (overlay) {
+                overlay.classList.add('active');
+                document.body.style.overflow = 'hidden';
+            }
+        }
+
+        function closeArticle(id) {
+            var overlay = document.getElementById(id);
+            if (overlay) {
+                overlay.classList.remove('active');
+                document.body.style.overflow = '';
+            }
+        }
+
+        var allOverlays = document.querySelectorAll('.article-overlay');
+        for (var i = 0; i < allOverlays.length; i++) {
+            allOverlays[i].addEventListener('click', function(e) {
+                if (e.target === this) {
+                    this.classList.remove('active');
+                    document.body.style.overflow = '';
+                }
+            });
+        }
+
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                for (var j = 0; j < allOverlays.length; j++) {
+                    if (allOverlays[j].classList.contains('active')) {
+                        allOverlays[j].classList.remove('active');
+                        document.body.style.overflow = '';
+                    }
+                }
+            }
+        });
+    </script>
+
+     <!-- Loading Screen -->
+     <div id="page-loader">
+     <div class="loader-spinner"></div>
+     </div>
+
+     <!-- Scroll Progress Bar -->
+     <div id="scroll-progress"></div>
+
+     <!-- JavaScript -->
+     <script src="script.js"></script>
+
+</body>
+</html>
